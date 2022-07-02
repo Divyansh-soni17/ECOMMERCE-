@@ -41,7 +41,7 @@ const ResetPassword = () => {
       alert.success("Password Updated Successfully");
       navigate("/login");
     }
-  }, [dispatch, error, alert, navigate, , success]);
+  }, [dispatch, error, alert, navigate,success]);
 
   return (
     <>

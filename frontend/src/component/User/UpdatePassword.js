@@ -43,10 +43,10 @@ const UpdatePassword = () => {
       alert.success("Profile Updated Successfully"); 
       navigate("/account");
       dispatch({
-        type: UPDATE_PASSWORD_RESET,
+        type: UPDATE_PASSWORD_RESET
       });
     }
-  }, [dispatch, error, alert, navigate,  , isUpdated]);
+  }, [dispatch, error, alert, navigate, isUpdated]);
 
   return (
     <>

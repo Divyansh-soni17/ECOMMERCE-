@@ -22,17 +22,17 @@
     color: rgba(0, 0, 0, 0.493);
     transition: all 0.5s;
     padding: 2rem;
-    font: 200 1.5rem "Roboto";
+    font: 200 1rem "Roboto";
 }
 .Firsttree{
     color: rgba(0, 0, 0, 0.493);
     transition: all 0.5s;
     padding: 2rem;
-    font: 200 1.5rem "Roboto" !important;
+    font: 200 1rem "Roboto" !important;
 
 }
 .MuiTypography-body1{
-    font: 200 1.5rem "Roboto" !important ;
+    font: 200 1rem "Roboto" !important ;
 }
 
 .sidebar a:hover{

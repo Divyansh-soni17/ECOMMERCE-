@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./ForgotPassword.css";
-import { useNavigate } from "react-router-dom";
+import "./ForgotPassword.css"; 
 import Loader from "../layout/Loader/Loader.js";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import { useDispatch, useSelector } from "react-redux";
@@ -8,8 +7,7 @@ import { clearErrors, forgotPassword } from "../../actions/userAction";
 import { useAlert } from "react-alert";
 import MetaData from "../layout/MetaData";
 
-const ForgotPassword = () => {
-  const navigate = useNavigate();
+const ForgotPassword = () => { 
   const dispatch = useDispatch();
   const alert = useAlert();
   const { error, message, loading } = useSelector(
