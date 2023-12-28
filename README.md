@@ -1,7 +1,7 @@
 
 **Website** - [click here](https://ecommerce-mern-stack-17.herokuapp.com/)
 
-# ECOMMERCE WEBSITE
+# CartSpace
 
 This is an ECOMMERCE WEBSITE where user can buy anything they want.
 
