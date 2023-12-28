@@ -35,7 +35,7 @@ const Cart = () => {
 
   return (
     <>
-    <MetaData title="Cart--Ecommerce" />
+    <MetaData title="Cart--CartSpace" />
       {cartItems.length === 0 ? (
         <div className="emptyCart">
           <RemoveShoppingCartIcon />
